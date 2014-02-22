@@ -1,0 +1,33 @@
+<h1>Listing plasmids</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Volume</th>
+      <th>Conc</th>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @plasmids.each do |plasmid| %>
+      <tr>
+        <td><%= plasmid.name %></td>
+        <td><%= plasmid.volume %></td>
+        <td><%= plasmid.concentration %></td>
+        <td><%= plasmid.date %></td>
+        <td><%= link_to 'Show', plasmid %></td>
+        <td><%= link_to 'Edit', edit_plasmid_path(plasmid) %></td>
+        <td><%= link_to 'Destroy', plasmid, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Plasmid', new_plasmid_path %>

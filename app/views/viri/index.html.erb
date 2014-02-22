@@ -1,0 +1,31 @@
+<h1>Listing viri</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Volume</th>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @viri.each do |virus| %>
+      <tr>
+        <td><%= virus.name %></td>
+        <td><%= virus.volume %></td>
+        <td><%= virus.date %></td>
+        <td><%= link_to 'Show', virus %></td>
+        <td><%= link_to 'Edit', edit_virus_path(virus) %></td>
+        <td><%= link_to 'Destroy', virus, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Virus', new_virus_path %>

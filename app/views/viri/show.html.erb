@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @virus.name %>
+</p>
+
+<p>
+  <strong>Volume:</strong>
+  <%= @virus.volume %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @virus.date %>
+</p>
+
+<%= link_to 'Edit', edit_virus_path(@virus) %> |
+<%= link_to 'Back', viri_path %>

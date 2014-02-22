@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @plasmid.name %>
+</p>
+<p>
+  <strong>Volume:</strong>
+  <%= @plasmid.volume %>
+</p>
+<p>
+  <strong>Conc:</strong>
+  <%= @plasmid.concentration %>
+</p>
+<p>
+  <strong>Date:</strong>
+  <%= @plasmid.date %>
+</p>
+<%= link_to 'Edit', edit_plasmid_path(@plasmid) %> |
+<%= link_to 'Back', plasmids_path %>
