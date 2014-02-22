@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1160954-5db2-43be-865b-754282777261" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/reprog_exp.iml" afterPath="$PROJECT_DIR$/.idea/reprog_exp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="reprog_exp.iws" />
@@ -17,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/reprog_exp@Development__reprog_exp.coverage" NAME="Development: reprog_exp Coverage Results" MODIFIED="1392668166987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reprog_exp" />
+    <SUITE FILE_PATH="coverage/reprog_exp@Development__reprog_exp.coverage" NAME="Development: reprog_exp Coverage Results" MODIFIED="1393106094016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="reprog_exp" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,7 +41,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="17" selection-start="932" selection-end="932" vertical-scroll-proportion="0.3583062" vertical-offset="572" max-vertical-offset="1298">
+            <state line="38" column="22" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.87096775" vertical-offset="583" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -345,7 +343,11 @@
       <created>1393105031197</created>
       <updated>1393105031197</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавили гем для бд хероку&#10;">
+      <created>1393105794870</created>
+      <updated>1393105794870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +364,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5295031" sideWeight="0.5003984" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2675367" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42391303" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -388,7 +390,8 @@
     </option>
     <MESSAGE value="git ignore" />
     <MESSAGE value="изменен весь текст на фразу в файле Readme&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменен весь текст на фразу в файле Readme&#10;" />
+    <MESSAGE value="добавили гем для бд хероку&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили гем для бд хероку&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -724,7 +727,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="932" selection-end="932" vertical-scroll-proportion="0.3583062" vertical-offset="572" max-vertical-offset="1298">
+        <state line="38" column="22" selection-start="1028" selection-end="1028" vertical-scroll-proportion="0.87096775" vertical-offset="583" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
