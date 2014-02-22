@@ -8,9 +8,8 @@
 </head>
 <body>
 <div id="header">
-  <a class="top_nav_link active" id="head_plasmid" <%= link_to 'Plasmid', plasmids_path %> onclick="return nav.go(this, event, {search: true, noframe: true});" onmouseover="gSearch.preload();" onmousedown="tnActive(this)"></a>
-
-  <a class="top_nav_link active" id="head_virus" href="http://localhost:3000/viri/" onclick="return nav.go(this, event, {search: true, noframe: true});" onmouseover="gSearch.preload();" onmousedown="tnActive(this)"></a>
+   <%= link_to 'Plasmid', plasmids_path %>
+  <%= link_to 'Virus', viri_path %>
 </div>
 <%= yield %>
   <div id="footer">
