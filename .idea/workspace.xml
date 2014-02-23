@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1160954-5db2-43be-865b-754282777261" name="Default" comment="">
+    <list default="true" id="f1160954-5db2-43be-865b-754282777261" name="Default" comment="создала ссылку на пробы в хедере&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140223133235_create_cells.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140223133724_cell_typerename.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/cell.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/cells_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/index.json.jbuilder" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cells/show.json.jbuilder" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="reprog_exp.iws" />
@@ -30,10 +43,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cells/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="49" selection-start="267" selection-end="267" vertical-scroll-proportion="0.3773585" vertical-offset="0" max-vertical-offset="638">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="264">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cells/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="-2.1290324" vertical-offset="198" max-vertical-offset="880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cells/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="21" selection-start="80" selection-end="89" vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cells/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="49" selection-start="371" selection-end="371" vertical-scroll-proportion="-7.806452" vertical-offset="198" max-vertical-offset="880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cells_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/cells_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="30" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.75510204" vertical-offset="1353" max-vertical-offset="1892">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140223133724_cell_typerename.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140223133724_cell_typerename.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="32" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/plasmids/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="82" selection-end="118" vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="264">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/plasmids/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="38" selection-start="718" selection-end="753" vertical-scroll-proportion="-10.580646" vertical-offset="266" max-vertical-offset="880">
               <folding />
             </state>
           </provider>
@@ -68,6 +144,11 @@
         <option value="$PROJECT_DIR$/app/views/probes/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/viri/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140223133724_cell_typerename.rb" />
+        <option value="$PROJECT_DIR$/app/views/cells/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cells/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cells/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/cells_controller.rb" />
       </list>
     </option>
   </component>
@@ -138,11 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,15 +233,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,7 +494,11 @@
       <created>1393161583182</created>
       <updated>1393161583182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="создала ссылку на пробы в хедере">
+      <created>1393161993817</created>
+      <updated>1393161993817</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -468,54 +545,13 @@
     <MESSAGE value="добавили гем для ассетов хероку&#10;" />
     <MESSAGE value="отредактировали ссылки в хедере&#10;" />
     <MESSAGE value="создала вкладку с пробами и отредактировала календарь у вкладки с вирусами&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="создала вкладку с пробами и отредактировала календарь у вкладки с вирусами&#10;" />
+    <MESSAGE value="создала ссылку на пробы в хедере" />
+    <option name="LAST_COMMIT_MESSAGE" value="создала ссылку на пробы в хедере" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140216135439_add_fields_to_plasmid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/plasmids_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="6" selection-start="1875" selection-end="1875" vertical-scroll-proportion="0.0" vertical-offset="1628" max-vertical-offset="1760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/plasmids/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/plasmids/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="9" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/plasmids/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="82" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="215" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="27" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="858">
@@ -693,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140216135439_add_fields_to_plasmid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/plasmids/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="42" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="572">
@@ -762,20 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/plasmids/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="82" selection-end="118" vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/plasmids/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="718" selection-end="753" vertical-scroll-proportion="-9.774194" vertical-offset="291" max-vertical-offset="880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/probes/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="44" selection-start="459" selection-end="459" vertical-scroll-proportion="-5.677419" vertical-offset="198" max-vertical-offset="880">
@@ -792,7 +807,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="267" selection-end="267" vertical-scroll-proportion="0.3773585" vertical-offset="0" max-vertical-offset="638">
+        <state line="14" column="40" selection-start="450" selection-end="450" vertical-scroll-proportion="0.6037736" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/plasmids/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="82" selection-end="118" vertical-scroll-proportion="-3.548387" vertical-offset="0" max-vertical-offset="264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/plasmids/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="38" selection-start="718" selection-end="753" vertical-scroll-proportion="-10.580646" vertical-offset="266" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140216135439_add_fields_to_plasmid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="207" selection-end="207" vertical-scroll-proportion="0.18675722" vertical-offset="0" max-vertical-offset="589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140223133724_cell_typerename.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cells/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cells/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="47" selection-start="336" selection-end="336" vertical-scroll-proportion="-2.1290324" vertical-offset="198" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cells/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="80" selection-end="89" vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cells/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="49" selection-start="371" selection-end="371" vertical-scroll-proportion="-7.806452" vertical-offset="198" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/cells_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="30" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.75510204" vertical-offset="1353" max-vertical-offset="1892">
           <folding />
         </state>
       </provider>

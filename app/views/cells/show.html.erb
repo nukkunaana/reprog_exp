@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cell_type:</strong>
+  <%= @cell.cell_type %>
+</p>
+
+<p>
+  <strong>Passage:</strong>
+  <%= @cell.passage %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @cell.date %>
+</p>
+
+<p>
+  <strong>Container:</strong>
+  <%= @cell.container %>
+</p>
+
+<%= link_to 'Edit', edit_cell_path(@cell) %> |
+<%= link_to 'Back', cells_path %>

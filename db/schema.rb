@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140223131034) do
+ActiveRecord::Schema.define(version: 20140223133724) do
+
+  create_table "cells", force: true do |t|
+    t.string   "cell_type"
+    t.integer  "passage"
+    t.datetime "date"
+    t.string   "container"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "plasmids", force: true do |t|
     t.string   "name"
