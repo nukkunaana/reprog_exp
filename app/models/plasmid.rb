@@ -1,4 +1,5 @@
 class Plasmid < ActiveRecord::Base
-  has_one :plasmid_probe
-  has_one :probe, :through => :plasmid_probe
+  has_many :plasmid_probes
+
+  has_many :probes, :through => :plasmid_probes
 end

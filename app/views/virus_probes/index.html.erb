@@ -14,7 +14,7 @@
   <tbody>
     <% @virus_probes.each do |virus_probe| %>
       <tr>
-        <td><%= virus_probe.viri_id %></td>
+        <td><%= virus_probe.virus_id %></td>
         <td><%= virus_probe.probe_id %></td>
         <td><%= link_to 'Show', virus_probe %></td>
         <td><%= link_to 'Edit', edit_virus_probe_path(virus_probe) %></td>
