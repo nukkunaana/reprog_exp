@@ -1,4 +1,6 @@
 ReprogExp::Application.routes.draw do
+  resources :probes
+
   resources :viri
 
   resources :plasmids

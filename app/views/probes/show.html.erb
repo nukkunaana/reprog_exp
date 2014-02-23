@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @probe.number %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @probe.date %>
+</p>
+
+<p>
+  <strong>Dna:</strong>
+  <%= @probe.dna %>
+</p>
+
+<p>
+  <strong>Volume:</strong>
+  <%= @probe.volume %>
+</p>
+
+<%= link_to 'Edit', edit_probe_path(@probe) %> |
+<%= link_to 'Back', probes_path %>

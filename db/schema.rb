@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140217201331) do
+ActiveRecord::Schema.define(version: 20140223131034) do
 
   create_table "plasmids", force: true do |t|
     t.string   "name"
@@ -20,6 +20,15 @@ ActiveRecord::Schema.define(version: 20140217201331) do
     t.integer  "volume"
     t.integer  "concentration"
     t.datetime "date"
+  end
+
+  create_table "probes", force: true do |t|
+    t.integer  "number"
+    t.datetime "date"
+    t.string   "dna"
+    t.integer  "volume"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "viri", force: true do |t|

@@ -1,0 +1,33 @@
+<h1>Listing probes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Date</th>
+      <th>Dna</th>
+      <th>Volume</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @probes.each do |probe| %>
+      <tr>
+        <td><%= probe.number %></td>
+        <td><%= probe.date %></td>
+        <td><%= probe.dna %></td>
+        <td><%= probe.volume %></td>
+        <td><%= link_to 'Show', probe %></td>
+        <td><%= link_to 'Edit', edit_probe_path(probe) %></td>
+        <td><%= link_to 'Destroy', probe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Probe', new_probe_path %>
