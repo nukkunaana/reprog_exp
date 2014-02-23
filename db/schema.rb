@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140223135904) do
+ActiveRecord::Schema.define(version: 20140223151604) do
 
   create_table "cells", force: true do |t|
     t.string   "cell_type"
@@ -41,7 +41,6 @@ ActiveRecord::Schema.define(version: 20140223135904) do
   create_table "probes", force: true do |t|
     t.integer  "number"
     t.datetime "date"
-    t.string   "dna"
     t.integer  "volume"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -56,7 +55,7 @@ ActiveRecord::Schema.define(version: 20140223135904) do
   end
 
   create_table "virus_probes", force: true do |t|
-    t.integer  "viri_id"
+    t.integer  "virus_id"
     t.integer  "probe_id"
     t.datetime "created_at"
     t.datetime "updated_at"

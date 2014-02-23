@@ -69,6 +69,6 @@ class ProbesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def probe_params
-      params.require(:probe).permit(:number, :date, :dna, :volume)
+      params.require(:probe).permit(:number, :date, :volume)
     end
 end
