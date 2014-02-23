@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>id</th>
       <th>Number</th>
       <th>Date</th>
       <th>Dna</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @probes.each do |probe| %>
       <tr>
+        <td><%= probe.id %></td>
         <td><%= probe.number %></td>
         <td><%= probe.date %></td>
         <td><%= probe.dna %></td>

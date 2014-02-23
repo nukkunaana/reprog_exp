@@ -1,0 +1,29 @@
+<h1>Listing plasmid_probes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Plasmid</th>
+      <th>Probe</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @plasmid_probes.each do |plasmid_probe| %>
+      <tr>
+        <td><%= plasmid_probe.plasmid_id %></td>
+        <td><%= plasmid_probe.probe_id %></td>
+        <td><%= link_to 'Show', plasmid_probe %></td>
+        <td><%= link_to 'Edit', edit_plasmid_probe_path(plasmid_probe) %></td>
+        <td><%= link_to 'Destroy', plasmid_probe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Plasmid probe', new_plasmid_probe_path %>

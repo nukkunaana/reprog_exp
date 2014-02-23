@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Plasmid:</strong>
+  <%= @plasmid_probe.plasmid_id %>
+</p>
+
+<p>
+  <strong>Probe:</strong>
+  <%= @plasmid_probe.probe_id %>
+</p>
+
+<%= link_to 'Edit', edit_plasmid_probe_path(@plasmid_probe) %> |
+<%= link_to 'Back', plasmid_probes_path %>

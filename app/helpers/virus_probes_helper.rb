@@ -1,0 +1,2 @@
+module VirusProbesHelper
+end

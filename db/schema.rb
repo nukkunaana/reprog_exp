@@ -11,13 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140223133724) do
+ActiveRecord::Schema.define(version: 20140223135904) do
 
   create_table "cells", force: true do |t|
     t.string   "cell_type"
     t.integer  "passage"
     t.datetime "date"
     t.string   "container"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "plasmid_probes", force: true do |t|
+    t.integer  "plasmid_id"
+    t.integer  "probe_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -44,6 +51,13 @@ ActiveRecord::Schema.define(version: 20140223133724) do
     t.string   "name"
     t.integer  "volume"
     t.datetime "date"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "virus_probes", force: true do |t|
+    t.integer  "viri_id"
+    t.integer  "probe_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

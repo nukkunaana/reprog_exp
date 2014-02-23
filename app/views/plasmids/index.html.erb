@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>id</th>
       <th>Name</th>
       <th>Volume</th>
       <th>Conc</th>
@@ -16,6 +17,7 @@
   <tbody>
     <% @plasmids.each do |plasmid| %>
       <tr>
+        <td><%= plasmid.id %></td>
         <td><%= plasmid.name %></td>
         <td><%= plasmid.volume %></td>
         <td><%= plasmid.concentration %></td>

@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>id</th>
       <th>Name</th>
       <th>Volume</th>
       <th>Date</th>
@@ -15,6 +16,7 @@
   <tbody>
     <% @viri.each do |virus| %>
       <tr>
+        <td><%= virus.id %></td>
         <td><%= virus.name %></td>
         <td><%= virus.volume %></td>
         <td><%= virus.date %></td>

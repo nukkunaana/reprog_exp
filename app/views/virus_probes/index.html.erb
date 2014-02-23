@@ -1,0 +1,29 @@
+<h1>Listing virus_probes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Viri</th>
+      <th>Probe</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @virus_probes.each do |virus_probe| %>
+      <tr>
+        <td><%= virus_probe.viri_id %></td>
+        <td><%= virus_probe.probe_id %></td>
+        <td><%= link_to 'Show', virus_probe %></td>
+        <td><%= link_to 'Edit', edit_virus_probe_path(virus_probe) %></td>
+        <td><%= link_to 'Destroy', virus_probe, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Virus probe', new_virus_probe_path %>

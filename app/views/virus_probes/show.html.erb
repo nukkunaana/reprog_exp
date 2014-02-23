@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Viri:</strong>
+  <%= @virus_probe.viri_id %>
+</p>
+
+<p>
+  <strong>Probe:</strong>
+  <%= @virus_probe.probe_id %>
+</p>
+
+<%= link_to 'Edit', edit_virus_probe_path(@virus_probe) %> |
+<%= link_to 'Back', virus_probes_path %>
